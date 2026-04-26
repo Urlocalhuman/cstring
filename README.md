@@ -1,4 +1,2 @@
 # cstring
-Custom string library for c  
-i need some time to find where i put this on my pc lmao  
-be patient pls
+To use: just #include strlib_c.h and make sure it's compiled with your project
