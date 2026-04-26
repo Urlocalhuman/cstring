@@ -11,5 +11,7 @@ int main() {
     string* compare = str_init("Hello");
     int result = str->startswith(str, compare);
     printf("str '%s' startswith '%s': %d", str->data, compare->data, result);
+    // note: i havent free'd the strings in this example
+    // in future i will add a function to check for memory leaks
     return 0;
 }
